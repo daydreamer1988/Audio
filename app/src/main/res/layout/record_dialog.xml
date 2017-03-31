@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="230dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bg_record_dialog"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recorder"
+            />
+
+        <ImageView
+            android:id="@+id/level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/v1"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:text="手指上滑，取消录音"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
